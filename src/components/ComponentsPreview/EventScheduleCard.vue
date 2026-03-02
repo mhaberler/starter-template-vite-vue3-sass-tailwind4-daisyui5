@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 
 </script>
 
@@ -45,7 +45,7 @@
 			</div>
 			<div class="flex flex-col gap-2">
 				<label class="flex gap-2 items-center cursor-pointer">
-					<input type="checkbox" class="toggle toggle-sm toggle-primary" checked="">
+				<input type="checkbox" class="toggle toggle-sm toggle-primary" :checked="true">
 					<span class="text-xs">Show all day events</span>
 				</label>
 			</div>

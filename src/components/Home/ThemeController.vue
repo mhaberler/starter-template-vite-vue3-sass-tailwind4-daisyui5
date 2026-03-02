@@ -1,10 +1,10 @@
-<script setup>
-import { Themes } from "@/utils/Themes.js";
+<script setup lang="ts">
+import { Themes } from "@/utils/Themes";
 
 const availableThemes = Themes.availableThemes;
 const theme = Themes.currentTheme;
 
-const setTheme = (newTheme) => {
+const setTheme = (newTheme: string) => {
 	Themes.apply(newTheme);
 }
 </script>

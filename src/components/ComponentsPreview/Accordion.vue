@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 
 </script>
 
@@ -6,7 +6,7 @@
 	<div class="min-h-75">
 		<div class="join join-vertical">
 			<div class="collapse collapse-arrow join-item bg-base-100 border-base-300 border">
-				<input type="radio" name="my-accordion-4" checked="checked"/>
+			<input type="radio" name="my-accordion-4" :checked="true"/>
 				<div class="collapse-title font-semibold">How do I create an account?</div>
 				<div class="collapse-content text-sm">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
 			</div>

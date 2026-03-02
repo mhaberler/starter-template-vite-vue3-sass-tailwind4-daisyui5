@@ -1,15 +1,15 @@
-<script setup>
+<script setup lang="ts">
 import { useRoute } from 'vue-router';
 import { computed } from "vue";
 
 const route = useRoute();
 
 const breadcrumbs = computed(() => {
-	return route.matched.filter(record => record.name.toLowerCase() !== 'home') // Filter out the home route
+	return route.matched.filter(record => typeof record.name === 'string' && record.name.toLowerCase() !== 'home') // Filter out the home route
 });
 
 const isHomeActive = computed(() => {
-	return route.name && route.name.toLowerCase() === 'home';
+	return route.name && typeof route.name === 'string' && route.name.toLowerCase() === 'home';
 });
 </script>
 

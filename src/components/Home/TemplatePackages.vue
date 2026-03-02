@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { ref } from "vue";
 import logoVue from "@/assets/images/vue.svg";
 import logoDaisyUi from '@/assets/images/daisyui-logomark.svg';

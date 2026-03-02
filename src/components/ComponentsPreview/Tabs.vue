@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 
 </script>
 
@@ -9,7 +9,7 @@
 			<div class="tab-content bg-base-100 border-base-300 p-6">
 				Tab content 1
 			</div>
-			<input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Tab 2" checked="checked">
+			<input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Tab 2" :checked="true">
 			<div class="tab-content bg-base-100 border-base-300 p-6">
 				Tab content 2
 			</div>

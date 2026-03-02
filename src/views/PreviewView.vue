@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 
 import ProductFilterCard from "@/components/ComponentsPreview/ProductFilterCard.vue";
 import EventScheduleCard from "@/components/ComponentsPreview/EventScheduleCard.vue";

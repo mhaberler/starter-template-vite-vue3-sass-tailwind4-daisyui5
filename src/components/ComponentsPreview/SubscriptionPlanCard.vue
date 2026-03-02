@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 
 </script>
 
@@ -8,7 +8,7 @@
 			<div class="tabs tabs-box inline-flex flex-nowrap m-4 bg-base-300"><input type="radio" name="my_tabs_1" role="tab" class="tab w-1/2" aria-label="Monthly">
 				<div class="w-1/2 indicator">
 					<div class="indicator-item badge badge-warning badge-xs">SALE</div>
-					<input type="radio" name="my_tabs_1" role="tab" class="tab w-full" aria-label="Yearly" checked=""></div>
+     <input type="radio" name="my_tabs_1" role="tab" class="tab w-full" aria-label="Yearly" :checked="true"></div>
 			</div>
 		</div>
 		<div class="card-body gap-4 pt-2">

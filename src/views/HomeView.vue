@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import TemplatePackages from "@/components/Home/TemplatePackages.vue";
 import ThemeController from "@/components/Home/ThemeController.vue";
 import ComponentsPreview from "@/components/Home/ComponentsPreview.vue";

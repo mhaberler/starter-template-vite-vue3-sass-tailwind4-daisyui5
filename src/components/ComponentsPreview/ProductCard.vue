@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 
 </script>
 
@@ -19,7 +19,7 @@
 					<input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400">
 					<input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400">
 					<input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400">
-					<input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked="">
+				<input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" :checked="true">
 				</div>
 				<span class="text-xs opacity-60">420 reviews</span>
 			</div>

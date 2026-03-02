@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 
 </script>
 
@@ -32,14 +32,14 @@
       <div class="flex flex-col">
         <div class="flex justify-between items-center gap-2 border-b border-dashed border-b-base-content/5 py-2">
           <label class="flex items-center gap-2 select-none cursor-pointer">
-            <input type="checkbox" class="checkbox checkbox-sm" checked="">
+            <input type="checkbox" class="checkbox checkbox-sm" :checked="true">
             <span>Hoodies</span>
           </label>
           <span class="badge badge-xs font-mono badge-neutral">25</span>
         </div>
         <div class="flex justify-between items-center gap-2 border-b border-dashed border-b-base-content/5 py-2">
           <label class="flex items-center gap-2 select-none cursor-pointer">
-            <input type="checkbox" class="checkbox checkbox-sm" checked="">
+            <input type="checkbox" class="checkbox checkbox-sm" :checked="true">
             <span>Bags</span>
           </label>
           <span class="badge badge-xs font-mono badge-neutral">3</span>

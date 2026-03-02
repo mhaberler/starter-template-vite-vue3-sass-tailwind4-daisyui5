@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import PriceRange from "@/components/ComponentsPreview/PriceRange.vue";
 import AccountRegistrationForm from "@/components/ComponentsPreview/AccountRegistrationForm.vue";
 import MusicPlayer from "@/components/ComponentsPreview/MusicPlayer.vue";
