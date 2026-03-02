@@ -47,9 +47,7 @@ const title = "Template Preview";
         :to="{ name: 'home' }"
         class="text-xl"
       >
-        {{
-          title
-        }}
+        {{ title }}
       </router-link>
     </div>
     <div class="inline-flex flex-none gap-x-2">

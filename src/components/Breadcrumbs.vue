@@ -42,9 +42,7 @@ const isHomeActive = computed(() => {
               :to="breadcrumb.path"
               class="font-semibold"
             >
-              {{
-                breadcrumb.meta.title
-              }}
+              {{ breadcrumb.meta.title }}
             </router-link>
           </li>
         </ul>

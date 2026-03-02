@@ -1,4 +1,4 @@
-import { Ref,ref } from "vue";
+import { Ref, ref } from "vue";
 
 import iconAutoDetect from "@/assets/icons/auto-detect.svg?raw";
 import iconMoon from "@/assets/icons/moon.svg?raw";
@@ -42,7 +42,9 @@ export class Themes {
     if (newTheme === this.defaultTheme) {
       // Uloží "system", ale vzhled na stránce nastaví podle preferencí
       localStorage.setItem(this.#storageKey, "system");
-      document.documentElement.dataset.theme = this.prefersDark() ? "dark" : "light";
+      document.documentElement.dataset.theme = this.prefersDark()
+        ? "dark"
+        : "light";
     } else {
       // Uloží zvolenou čitelnou hodnotu, např. "dark" nebo "light"
       document.documentElement.dataset.theme = newTheme;
